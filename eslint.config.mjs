@@ -13,6 +13,9 @@ const compat = new FlatCompat({
 export default [
   ...compat.extends("@nuxtjs/eslint-config-typescript"),
   {
+    ignores: ["*presets*"],
+  },
+  {
     rules: {
       semi: ["error", "always"],
       "prefer-const": "error",

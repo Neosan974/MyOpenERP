@@ -1,5 +1,3 @@
 <template>
-  <div>
-    <PrimeButton label="coucou" />
-  </div>
+  <div>Welcome to the Home Page</div>
 </template>
