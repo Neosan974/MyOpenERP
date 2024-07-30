@@ -1,3 +1,5 @@
 <template>
-  <div>welcome here</div>
+  <div>
+    <PrimeButton label="coucou" />
+  </div>
 </template>

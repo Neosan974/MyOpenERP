@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
-        "Nuxt"
+        "Nuxt",
+        "primevue"
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll.ts": "explicit",

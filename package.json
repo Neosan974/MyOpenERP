@@ -14,7 +14,9 @@
     "lintfix": "eslint . --fix && prettier --write --list-different ."
   },
   "dependencies": {
+    "@primevue/themes": "^4.0.3",
     "nuxt": "^3.12.4",
+    "nuxt-primevue": "^3.0.0",
     "vue": "latest"
   },
   "devDependencies": {
