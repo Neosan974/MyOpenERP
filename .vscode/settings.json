@@ -1,7 +1,9 @@
 {
     "cSpell.words": [
         "Nuxt",
-        "primevue"
+        "nuxtjs",
+        "primevue",
+        "tailwindcss"
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll.ts": "explicit",
