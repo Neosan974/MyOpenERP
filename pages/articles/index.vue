@@ -1,5 +1,3 @@
 <template>
-  <div>
-    articles list
-  </div>
+  <div>articles list</div>
 </template>
