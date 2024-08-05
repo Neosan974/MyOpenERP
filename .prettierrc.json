@@ -6,5 +6,7 @@
   "semi": true,
   "endOfLine": "lf",
   "singleQuote": false,
-  "vueIndentScriptAndStyle": true
+  "vueIndentScriptAndStyle": false,
+  "singleAttributePerLine": true,
+  "bracketSameLine": false
 }

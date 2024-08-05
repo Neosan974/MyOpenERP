@@ -21,6 +21,8 @@ export default [
       "prefer-const": "error",
       quotes: ["error", "double"],
       "comma-dangle": ["error", "always-multiline"],
+      "vue/multi-word-component-names": "off",
+      "vue/singleline-html-element-content-newline": "off",
     },
   },
 ];
