@@ -16,8 +16,10 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@primevue/themes": "^4.0.3",
+    "chart.js": "^4.4.3",
     "nuxt": "^3.12.4",
     "nuxt-primevue": "^3.0.0",
+    "quill": "^2.0.2",
     "vue": "latest"
   },
   "devDependencies": {
