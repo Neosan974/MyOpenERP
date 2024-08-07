@@ -35,6 +35,7 @@
 </template>
 
 <script setup lang="ts">
+import type { MenuItem } from "primevue/menuitem";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const items = ref<MenuItem[]>([
   {

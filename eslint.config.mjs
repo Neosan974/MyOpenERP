@@ -12,6 +12,7 @@ const compat = new FlatCompat({
 
 export default [
   ...compat.extends("@nuxtjs/eslint-config-typescript"),
+  ...compat.extends("prettier"),
   {
     ignores: ["*presets*"],
   },

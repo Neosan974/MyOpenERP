@@ -1,9 +1,12 @@
 {
     "cSpell.words": [
+        "fontawesome",
+        "fortawesome",
         "Nuxt",
         "nuxtjs",
         "primevue",
-        "tailwindcss"
+        "tailwindcss",
+        "vesp"
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll.ts": "explicit",

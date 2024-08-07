@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         },
         options: {
           ripple: true,
-          unstyled: true,
+          unstyled: false,
         },
         importPT: { from: path.resolve(__dirname, "./presets/wind") },
         // importPT: {from: "~/presets/wind", as: "Wind"}
@@ -24,5 +24,6 @@ export default defineNuxtConfig({
       },
     ],
     "@nuxtjs/tailwindcss",
+    "@vesp/nuxt-fontawesome",
   ],
 });
