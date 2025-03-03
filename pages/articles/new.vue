@@ -37,7 +37,7 @@ async function onSubmit(article: Tables["articles"]) {
       icon: "fa6-regular:circle-xmark",
       description: "Error saving article: " + error.message,
       ui: {
-        container: "w-full pointer-events-auto bg-red-950",
+        container: "bg-red-950",
       },
     });
   } else {
@@ -47,7 +47,7 @@ async function onSubmit(article: Tables["articles"]) {
       title: "Success",
       description: "Article saved successfully!",
       ui: {
-        container: "w-full pointer-events-auto bg-green-950",
+        container: "bg-green-950",
       },
     });
   }
