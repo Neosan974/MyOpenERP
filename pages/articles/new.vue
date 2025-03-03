@@ -1,5 +1,13 @@
 <template>
   <div>
+    <ClientOnly>
+      <Teleport
+        defer
+        to="#title"
+      >
+        <h1>New article</h1>
+      </Teleport>
+    </ClientOnly>
     <ArticleForm
       :schema="schema"
       :initial-state="initialState"

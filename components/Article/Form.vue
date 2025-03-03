@@ -31,14 +31,6 @@ async function onSubmit(_event: FormSubmitEvent<Schema>) {
     class="space-y-4"
     @submit="onSubmit"
   >
-    <ClientOnly>
-      <Teleport
-        defer
-        to="#title"
-      >
-        <h1>New Article</h1>
-      </Teleport>
-    </ClientOnly>
     <UFormGroup
       label="Code"
       name="code"
