@@ -4,9 +4,7 @@
         "fortawesome",
         "Nuxt",
         "nuxtjs",
-        "primevue",
-        "tailwindcss",
-        "vesp"
+        "tailwindcss"
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll.ts": "explicit",

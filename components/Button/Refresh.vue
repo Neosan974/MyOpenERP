@@ -3,10 +3,10 @@
 <template>
   <UButton class="items-center">
     <template #leading>
-      <UIcon name="ep:plus"/>
+      <UIcon name="ep:refresh"/>
     </template>
     <slot name="default">
-        Add
+        Refresh
     </slot>
   </UButton>
 </template>
