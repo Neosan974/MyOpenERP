@@ -5,7 +5,9 @@
         "Nuxt",
         "nuxtjs",
         "SUPABASE",
-        "tailwindcss"
+        "tailwindcss",
+        "valibot",
+        "xmark"
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll.ts": "explicit",

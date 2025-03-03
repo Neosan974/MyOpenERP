@@ -11,8 +11,8 @@
         defer
         to="#actions"
       >
-        <ButtonRefresh @click="refresh"/>
-        <ButtonAdd/>
+        <ButtonRefresh @click="refresh" />
+        <ButtonAdd @click="router.push('/articles/new')" />
       </Teleport>
     </ClientOnly>
     <ArticleList :articles="articles" />
@@ -21,9 +21,11 @@
 
 <script lang="ts" setup>
 const supabase = useSupabaseClient();
-const { data: articles, refresh } = await useAsyncData('article', async () => {
-  const { data } = await supabase.from('articles').select('*');
+const { data: articles, refresh } = await useAsyncData("article", async () => {
+  const { data } = await supabase.from("articles").select("*");
 
-  return data
-})
+  return data;
+});
+
+const router = useRouter();
 </script>
