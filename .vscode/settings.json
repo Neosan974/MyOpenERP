@@ -4,6 +4,7 @@
         "fortawesome",
         "Nuxt",
         "nuxtjs",
+        "SUPABASE",
         "tailwindcss"
     ],
     "editor.codeActionsOnSave": {

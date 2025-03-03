@@ -11,7 +11,7 @@
         defer
         to="#actions"
       >
-        <ButtonRefresh/>
+        <ButtonRefresh @click="refresh"/>
         <ButtonAdd/>
       </Teleport>
     </ClientOnly>
@@ -20,5 +20,10 @@
 </template>
 
 <script lang="ts" setup>
-const articles = [];
+const supabase = useSupabaseClient();
+const { data: articles, refresh } = await useAsyncData('article', async () => {
+  const { data } = await supabase.from('articles').select('*');
+
+  return data
+})
 </script>
