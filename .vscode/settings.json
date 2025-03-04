@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "fontawesome",
+        "fortawesome",
+        "heroicons",
+        "Nuxt",
+        "nuxtjs",
+        "SUPABASE",
+        "tailwindcss",
+        "valibot",
+        "xmark"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.ts": "explicit",
+        "source.fixAll.eslint": "explicit",
+    }
+}
