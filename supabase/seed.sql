@@ -1,5 +1,5 @@
 -- Insert dummy data into articles table
-INSERT INTO articles (code, name, price) VALUES
+INSERT INTO public.articles (code, name, price) VALUES
 ('A001', 'Wireless Mouse', 25.99),
 ('A002', 'Mechanical Keyboard', 79.99),
 ('A003', '27-inch Monitor', 299.99),
